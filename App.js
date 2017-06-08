@@ -5,6 +5,7 @@ import Greeting from './components/Greeting';
 import DimensionsFixed from './components/DimensionsFixed';
 import DimensionsFlexDirection from './components/DimensionsFlexDirection';
 import PizzaTranslator from './components/PizzaTranslator';
+import Fetch from './components/Fetch';
 
 export default class LotsOfGreetings extends React.Component {
   render() {
@@ -21,6 +22,7 @@ export default class LotsOfGreetings extends React.Component {
           <DimensionsFlexDirection />
           <Blink text='Yes blinking is so great' />
           <PizzaTranslator />
+          <Fetch />
         </ScrollView>
       </View>
     );
